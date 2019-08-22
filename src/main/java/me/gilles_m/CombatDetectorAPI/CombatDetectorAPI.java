@@ -26,9 +26,6 @@ public class CombatDetectorAPI extends JavaPlugin {
 
 		instance = this;
 
-		this.getConfig().options().copyDefaults();
-		saveDefaultConfig();
-
 		Bukkit.getConsoleSender().sendMessage(Common.colorize(ChatColor.WHITE + "[" + ChatColor.GREEN + "CombatDetectorAPI" + ChatColor.WHITE + "]" + ChatColor.GREEN + " enabled"));
 
 	}
