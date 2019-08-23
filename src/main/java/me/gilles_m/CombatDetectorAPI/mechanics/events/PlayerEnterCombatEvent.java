@@ -1,4 +1,4 @@
-package me.gilles_m.CombatDetectorAPI.mechanics;
+package me.gilles_m.CombatDetectorAPI.mechanics.events;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
@@ -6,6 +6,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 import lombok.Getter;
+import me.gilles_m.CombatDetectorAPI.mechanics.Cooldown;
 
 public class PlayerEnterCombatEvent extends Event implements Cancellable {
 

@@ -1,4 +1,4 @@
-package me.gilles_m.CombatDetectorAPI.mechanics;
+package me.gilles_m.CombatDetectorAPI.mechanics.combatmechanics;
 
 import java.util.List;
 
@@ -7,6 +7,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import me.gilles_m.CombatDetectorAPI.CombatDetectorAPI;
+import me.gilles_m.CombatDetectorAPI.mechanics.Cooldown;
+import me.gilles_m.CombatDetectorAPI.mechanics.events.PlayerLeaveCombatEvent;
 
 public class CombatChecker {
 

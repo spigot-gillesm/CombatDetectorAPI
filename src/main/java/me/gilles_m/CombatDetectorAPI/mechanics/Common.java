@@ -1,4 +1,4 @@
-package me.gilles_m.CombatDetectorAPI;
+package me.gilles_m.CombatDetectorAPI.mechanics;
 
 import java.lang.reflect.Field;
 

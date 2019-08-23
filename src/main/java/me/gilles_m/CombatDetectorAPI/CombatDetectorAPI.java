@@ -11,9 +11,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.google.common.cache.CacheBuilder;
 
 import lombok.Getter;
-import me.gilles_m.CombatDetectorAPI.mechanics.CombatChecker;
-import me.gilles_m.CombatDetectorAPI.mechanics.CombatListener;
+import me.gilles_m.CombatDetectorAPI.mechanics.Common;
 import me.gilles_m.CombatDetectorAPI.mechanics.Cooldown;
+import me.gilles_m.CombatDetectorAPI.mechanics.Variables;
+import me.gilles_m.CombatDetectorAPI.mechanics.combatmechanics.CombatChecker;
+import me.gilles_m.CombatDetectorAPI.mechanics.combatmechanics.CombatListener;
 
 
 public class CombatDetectorAPI extends JavaPlugin {

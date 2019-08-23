@@ -1,4 +1,4 @@
-package me.gilles_m.CombatDetectorAPI.mechanics;
+package me.gilles_m.CombatDetectorAPI.mechanics.combatmechanics;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -15,7 +15,9 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionType;
 import org.bukkit.projectiles.ProjectileSource;
 
-import me.gilles_m.CombatDetectorAPI.Variables;
+import me.gilles_m.CombatDetectorAPI.mechanics.Cooldown;
+import me.gilles_m.CombatDetectorAPI.mechanics.Variables;
+import me.gilles_m.CombatDetectorAPI.mechanics.events.PlayerEnterCombatEvent;
 
 public class CombatListener implements Listener {
 
