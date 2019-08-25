@@ -40,7 +40,7 @@ public class CombatDetectorAPI extends JavaPlugin {
 	}
 
 	//Function used to activate the listener, the combat checker and set (all) the option variables
-	public static void intialize(Long frequency, boolean isPotionFighting) {
+	public static void initialize(Long frequency, boolean isPotionFighting) {
 
 		Variables.isPotionFighting = isPotionFighting;
 
@@ -50,7 +50,7 @@ public class CombatDetectorAPI extends JavaPlugin {
 	}
 
 	//Function used to activate the listener, the combat checker and set (all) the option variables
-	public static void intialize(Long frequency, int duration, boolean isPotionFighting) {
+	public static void initialize(Long frequency, int duration, boolean isPotionFighting) {
 
 		Variables.isPotionFighting = isPotionFighting;
 		Cooldown.setCache(CacheBuilder.newBuilder().expireAfterWrite(duration, TimeUnit.SECONDS).build());
@@ -61,7 +61,7 @@ public class CombatDetectorAPI extends JavaPlugin {
 	}
 
 	//Function used to activate the listener, the combat checker and set all the option variables
-	public static void intialize(Long frequency, int duration, boolean isPotionFighting, boolean anyPotion, List<String> potionList, boolean isSplashFighting, boolean isLingeringFighting) {
+	public static void initialize(Long frequency, int duration, boolean isPotionFighting, boolean anyPotion, List<String> potionList, boolean isSplashFighting, boolean isLingeringFighting) {
 
 		Variables.isPotionFighting = isPotionFighting;
 		Variables.anyPotion = anyPotion;
